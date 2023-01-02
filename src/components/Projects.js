@@ -1,4 +1,6 @@
 import '../index.css';
+import { DiReact, DiHtml5, DiCss3 } from 'react-icons/di';
+import { SiTailwindcss, SiJavascript } from 'react-icons/si';
 
 const description1 = ' - This is the second version of my personal website\n\n - I initially created it using some basic HTML, CSS and Javascript\n\n - I recreated this version using ReactJS and TailwindCSS\n\n'+
 ' - Some components were taken from DaisyUI while the rest of the website was coded from scratch by myself';
@@ -24,7 +26,14 @@ const Carousel = () => {
             <div id="slide1" className="carousel-item relative w-full">
                 <div className='flex justify-around items-center w-full h-full bg-slate-100 rounded-3xl'>
                     <div className='flex flex-col w-[35%] h-[90%] items-center mt-[5%]'>
-                        <img className='h-[80%] w-auto' src='https://img.icons8.com/fluency/512/resume.png' alt='No Image'/>
+                        <img className='h-[70%] w-auto' src='https://img.icons8.com/fluency/512/resume.png' alt='No Image'/>
+                        <div className='h-1/10 text-6xl flex items-center justify-evenly w-full'>
+                            <DiReact/>
+                            <DiHtml5/>
+                            <DiCss3/>
+                            <SiTailwindcss/>
+                            <SiJavascript/>
+                        </div>
                         <h1 className='m-[5%] font-bold text-[2vw]'>My Personal Website</h1>
                     </div>
                     <div className='flex flex-col w-[45%] h-[80%] items-center mt-[5%]'>
@@ -38,9 +47,16 @@ const Carousel = () => {
             </div>
             <div id="slide2" className="carousel-item relative w-full">
             <div className='flex justify-around items-center w-full h-full bg-slate-100 rounded-3xl'>
-                    <div className='flex flex-col w-[35%] h-[90%] items-center mt-[5%]'>
-                        <img className='h-[80%] w-auto' src='https://cdn-icons-png.flaticon.com/512/1709/1709973.png' alt='No Image'/>
-                        <h1 className='m-[5%] font-bold text-[2vw]'>Moviefy - In Progress</h1>
+                    <div className='flex flex-col justify-between w-[35%] h-[90%] items-center mt-[5%]'>
+                        <img className='h-[70%] w-auto' src='https://cdn-icons-png.flaticon.com/512/1709/1709973.png' alt='No Image'/>
+                        <div className='h-1/10 text-6xl flex items-center justify-evenly w-full'>
+                            <DiReact/>
+                            <DiHtml5/>
+                            <DiCss3/>
+                            <SiTailwindcss/>
+                            <SiJavascript/>
+                        </div>
+                        <h1 className='mb-[5%] font-bold text-[2vw]'>Movify - In Progress</h1>
                     </div>
                     <div className='flex flex-col w-[45%] h-[80%] items-center mt-[5%]'>
                         <p className='text-4xl whitespace-pre-line text-left text-[1.5vw]'>{description2}</p>

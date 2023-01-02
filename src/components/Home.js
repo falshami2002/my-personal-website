@@ -1,6 +1,8 @@
 import '../index.css';
 import {HiChevronDoubleDown} from 'react-icons/hi';
 import { useInView } from 'react-intersection-observer';
+import { AiFillGithub } from 'react-icons/ai';
+import { AiFillLinkedin } from 'react-icons/ai';
 
 const Home = () => {
     const [ref, inView, entry] = useInView({
@@ -14,6 +16,14 @@ const Home = () => {
         }}>
             <h1 className='text-7xl text-white font-mono font-bold'>Firas Alshami</h1>
             <h2 className='text-3xl text-white font-serif font-thin'>Computer Science Student</h2>
+            <div className='flex'>
+                <a href='https://github.com/falshami2002' target='_blank' rel='noreferrer'>
+                    <AiFillGithub className='text-3xl text-white mt-5 hover:text-black transition-colors duration-300 cursor-pointer mr-2 ml-2'/>
+                </a>
+                <a href='https://www.linkedin.com/in/firas-alshami-b8959a260/' target='_blank' rel='noreferrer'>
+                    <AiFillLinkedin className='text-3xl text-white mt-5 hover:text-black transition-colors duration-300 cursor-pointer mr-2 ml-2'/>
+                </a>
+            </div>
             <button className={'absolute bottom-0 mb-10 rounded-full bg-white animate-bounce transition-opacity duration-300'+(inView ? '' : ' opacity-0')} onClick={onClickScroll}>
                 <HiChevronDoubleDown className='text-5xl'/>
             </button>
@@ -24,4 +34,5 @@ const Home = () => {
 function onClickScroll() {
     document.getElementById('about').scrollIntoView({behavior: 'smooth'})
 }
+
 export default Home;
