@@ -1,6 +1,6 @@
 import '../index.css';
 import { DiReact, DiHtml5, DiCss3 } from 'react-icons/di';
-import { SiTailwindcss, SiJavascript } from 'react-icons/si';
+import { SiTailwindcss, SiJavascript, SiFirebase } from 'react-icons/si';
 
 const description1 = ' - This is the second version of my personal website\n\n - I initially created it using some basic HTML, CSS and Javascript\n\n - I recreated this version using ReactJS and TailwindCSS\n\n'+
 ' - Some components were taken from DaisyUI while the rest of the website was coded from scratch by myself';
@@ -55,6 +55,7 @@ const Carousel = () => {
                             <DiCss3/>
                             <SiTailwindcss/>
                             <SiJavascript/>
+                            <SiFirebase/>
                         </div>
                         <h1 className='mb-[5%] font-bold text-[2vw]'>Movify - In Progress</h1>
                     </div>
