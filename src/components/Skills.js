@@ -3,7 +3,7 @@ import '../index.css';
 const List1 = [{
     skill: "ReactJS",
     paragraph:"Self learned ReactJS through online courses and personal projects",
-    img: "https://pbs.twimg.com/card_img/1605134360671305728/o2LqSQI-?format=png&name=medium"
+    img: "https://www.metaltoad.com/sites/default/files/styles/large_personal_photo_870x500_/public/2020-05/react-js-blog-header.png?itok=VbfDeSgJ"
 },{
     skill: "Java",
     paragraph:"Learned Java through highschool and college courses",
@@ -13,9 +13,9 @@ const List1 = [{
     paragraph:"Learned C and C++ through college courses",
     img: "https://www.educative.io/v2api/editorpage/5393602882568192/image/6038586442907648"
 },{
-    skill: "Javascript",
-    paragraph:"Self learned Javascript through online courses and personal projects",
-    img: "https://cdn-cjido.nitrocdn.com/OWBpPGhVFQSOSTFJpSSOzqWMqrFnKYbA/assets/static/optimized/rev-61412d3/wp-content/uploads/2020/02/javascript-logo.jpg"
+    skill: "Javascript/Typescript",
+    paragraph:"Self learned Javascript and Typescript through online courses and personal projects",
+    img: "https://api.workinggears.com/storage/yuxa9EAfarIcX9EK8Ei1JSjwRnP7e0-metaanMtdHMuanBn-.jpg"
 }]
 
 const List2 = [{
