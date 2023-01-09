@@ -32,7 +32,7 @@ const Navbar = () => {
             </div>
             <hr className='text-white w-full'></hr>
             <a href={Resume} target='_blank' rel='noreferrer'>
-                <h1 className='mb-2 text-white text-xl cursor-pointer hover:text-blue-500 transition-all duration-300'>Resume PDF</h1>
+                <h1 className='mb-2 text-white text-[2vh] cursor-pointer hover:text-blue-500 transition-all duration-300'>Resume PDF</h1>
             </a>
         </nav>
     );
