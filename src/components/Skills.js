@@ -54,7 +54,7 @@ const Card = (props) => {
             </figure>
             <div className="card-body pt-[2vh] items-center text-center h-[30%]">
                 <h2 className="card-title text-[3vh]">{props.skill}</h2>
-                <p className='text-[1.5vh] mt-[2vh]'>{props.paragraph}</p>
+                <p className='text-[1.5vh] mt-[1vh]'>{props.paragraph}</p>
             </div>
         </div>
     );
