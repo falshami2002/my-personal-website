@@ -27,7 +27,7 @@ const Carousel = () => {
                 <div className='flex justify-around items-center w-full h-full bg-slate-100 rounded-3xl'>
                     <div className='flex flex-col w-[35%] h-[90%] items-center mt-[5%]'>
                         <img className='h-[70%] w-auto' src='https://img.icons8.com/fluency/512/resume.png' alt='No Image'/>
-                        <div className='h-1/10 text-6xl flex items-center justify-evenly w-full'>
+                        <div className='h-1/10 text-[3vw] flex items-center justify-evenly w-full'>
                             <DiReact/>
                             <DiHtml5/>
                             <DiCss3/>
@@ -37,7 +37,7 @@ const Carousel = () => {
                         <h1 className='m-[5%] font-bold text-[2vw]'>My Personal Website</h1>
                     </div>
                     <div className='flex flex-col w-[45%] h-[80%] items-center mt-[5%]'>
-                        <p className='text-4xl whitespace-pre-line text-left text-[1.5vw]'>{description1}</p>
+                        <p className='whitespace-pre-line text-left text-[1.5vw]'>{description1}</p>
                     </div>
                 </div>
                 <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -49,7 +49,7 @@ const Carousel = () => {
             <div className='flex justify-around items-center w-full h-full bg-slate-100 rounded-3xl'>
                     <div className='flex flex-col justify-between w-[35%] h-[90%] items-center mt-[5%]'>
                         <img className='h-[70%] w-auto' src='https://cdn-icons-png.flaticon.com/512/1709/1709973.png' alt='No Image'/>
-                        <div className='h-1/10 text-6xl flex items-center justify-evenly w-full'>
+                        <div className='h-1/10 text-[3vw] flex items-center justify-evenly w-full'>
                             <DiReact/>
                             <DiHtml5/>
                             <DiCss3/>
@@ -60,7 +60,7 @@ const Carousel = () => {
                         <h1 className='mb-[5%] font-bold text-[2vw]'>Movify - In Progress</h1>
                     </div>
                     <div className='flex flex-col w-[45%] h-[80%] items-center mt-[5%]'>
-                        <p className='text-4xl whitespace-pre-line text-left text-[1.5vw]'>{description2}</p>
+                        <p className='whitespace-pre-line text-left text-[1.5vw]'>{description2}</p>
                     </div>
                 </div>
                 <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">

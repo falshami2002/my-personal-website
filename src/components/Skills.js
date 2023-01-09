@@ -49,7 +49,7 @@ const Skills = () => {
 const Card = (props) => {
     return (
         <div className="card w-[15vw] bg-base-100 shadow-xl h-[35vh] flex justify-center items-center">
-            <figure className="px-[2vw] pt-10  w-auto h-[2/3] min-w-0]">
+            <figure className="px-[2vw] pt-[4vh]  w-auto h-[2/3] min-w-0]">
                 <img src={props.img} alt="No IMG" className="rounded-xl" />
             </figure>
             <div className="card-body pt-[2vh] items-center text-center h-[30%]">
