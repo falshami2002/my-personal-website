@@ -2,7 +2,7 @@ import '../index.css';
 import { AiFillHome } from 'react-icons/ai';
 import { MdFolderShared } from 'react-icons/md';
 import { HiInformationCircle } from 'react-icons/hi2';
-import Resume from '../files/08-Ballistic_Pendulum_Calculations_and_Results.docx.pdf';
+import Resume from '../files/FirasAlshamiResume.pdf';
 
 const Navbar = () => {
     function onNavHome() {
