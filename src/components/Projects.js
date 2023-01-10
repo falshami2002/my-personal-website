@@ -50,7 +50,7 @@ const Carousel = () => {
             <div id="slide2" className="carousel-item relative w-full">
             <div className='flex justify-around items-center w-full h-full bg-slate-100 rounded-3xl'>
                     <div className='flex flex-col justify-between w-[35%] h-[90%] items-center mt-[5%]'>
-                        <img className='h-[70%] w-auto' src='https://cdn-icons-png.flaticon.com/512/53/53283.png' alt='No Image'/>
+                        <img className='h-[60%] w-auto' src='https://cdn-icons-png.flaticon.com/512/53/53283.png' alt='No Image'/>
                         <div className='h-1/10 text-[3vw] flex items-center justify-evenly w-full'>
                             <DiReact/>
                             <DiHtml5/>
@@ -59,7 +59,10 @@ const Carousel = () => {
                             <SiTypescript/>
                             <SiFirebase/>
                         </div>
-                        <h1 className='mb-[5%] font-bold text-[2vw]'>Soccer Alert</h1>
+                        <div className='mb-[5%] font-bold'>
+                            <h1 className='text-[2vw]'>Soccer Alert</h1>
+                            <h2 className='text-[1vw]'><a href="https://socceralert.vercel.app/">Check out this app</a></h2>
+                        </div>
                     </div>
                     <div className='flex flex-col w-[45%] h-[80%] items-center mt-[5%]'>
                         <p className='whitespace-pre-line text-left text-[1.5vw]'>{description2}</p>
