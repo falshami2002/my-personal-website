@@ -8,8 +8,9 @@ const Home = () => {
     const [ref, inView, entry] = useInView({
         threshold: 1
     })
+
     return(
-        <div ref={ref} className='h-screen w-screen max-w-full bg-gray-900 flex flex-col items-center justify-center' style={{backgroundImage: 'url("https://adoption.microsoft.com/files/microsoft-teams/custom-backgrounds-gallery/community/nature/community-nature-Teams-background-123.jpg")',
+        <div ref={ref} className='h-screen w-screen max-w-full bg-gray-900 flex flex-col items-center justify-center' style={{backgroundImage: 'url("https://blog.depositphotos.com/wp-content/uploads/2017/07/Soothing-nature-backgrounds-2.jpg.webp")',
         backgroundRepeat:'no-repeat',
         backgroundSize:'cover',
         backgroundPosition:'center'

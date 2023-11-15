@@ -3,7 +3,7 @@ import '../index.css';
 const List1 = [{
     skill: "ReactJS",
     paragraph:"Self learned ReactJS through online courses and personal projects",
-    img: "https://www.metaltoad.com/sites/default/files/styles/large_personal_photo_870x500_/public/2020-05/react-js-blog-header.png?itok=VbfDeSgJ"
+    img: "https://download.logo.wine/logo/React_(web_framework)/React_(web_framework)-Logo.wine.png"
 },{
     skill: "Java",
     paragraph:"Learned Java through highschool and college courses",
@@ -29,7 +29,7 @@ const List2 = [{
 },{
     skill: "Tailwind CSS",
     paragraph:"Learned to use Tailwind CSS through self learning and personal projects",
-    img: "https://media.licdn.com/dms/image/C4D12AQGFpWlTXNSosA/article-cover_image-shrink_600_2000/0/1566112800433?e=2147483647&v=beta&t=FLHpFDS4aaKUk-mqlv8U-ur1Zhiizy6n4so6-I1Beeg"
+    img: "https://avatars.githubusercontent.com/u/67109815?s=280&v=4"
 },{
     skill: "C#",
     paragraph:"Self learned C# through a personal project",
@@ -38,7 +38,7 @@ const List2 = [{
 
 const Skills = () => {
     return (
-        <div className='h-[100vh] w-screen max-w-full flex flex-col justify-center items-center bg-slate-200'>
+        <div className='pt-5 z-1 h-[100vh] w-screen max-w-full flex flex-col justify-center items-center bg-slate-200'>
             <h1 className='text-[5vh] font-bold mb-5'>Skills</h1>
             <Cards list={List1}/>
             <Cards list={List2}/>
@@ -48,9 +48,9 @@ const Skills = () => {
 
 const Card = (props) => {
     return (
-        <div className="card w-[15vw] bg-base-100 shadow-xl h-[35vh] flex justify-center items-center">
+        <div className="card z-1 w-[15vw] bg-base-100 shadow-xl h-[35vh] flex justify-center items-center">
             <figure className="px-[2vw] pt-[4vh]  w-auto h-[2/3] min-w-0]">
-                <img src={props.img} alt="No IMG" className="rounded-xl" />
+                <img src={props.img} alt="No IMG" className="rounded-xl md:max-h-20 lg:max-h-30" />
             </figure>
             <div className="card-body pt-[2vh] items-center text-center h-[30%]">
                 <h2 className="card-title text-[3vh]">{props.skill}</h2>
@@ -62,7 +62,7 @@ const Card = (props) => {
 
 const Cards = (props) => {
     return (
-        <div className='w-[80vw] flex justify-around mt-[5vh]'>
+        <div className='z-1 w-[80vw] flex justify-around mt-[5vh]'>
             {props.list.map((lang) => {
                 return <Card skill={lang.skill} paragraph={lang.paragraph} img={lang.img}/>
             })}
